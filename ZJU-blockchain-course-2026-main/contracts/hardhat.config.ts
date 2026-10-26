@@ -8,6 +8,8 @@ export default defineConfig({
     settings: {
       // 兼容教学中使用的 Ganache 节点。
       evmVersion: "paris",
+      // MiniDEX 包含 ERC721Enumerable 和较多查询接口，需开启优化器以满足 24KB 合约大小限制。
+      optimizer: { enabled: true, runs: 200 },
     },
   },
   networks: {

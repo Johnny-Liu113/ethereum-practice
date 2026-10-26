@@ -10,3 +10,6 @@ typechain-types
 cache
 artifacts
 types
+
+# 部署输出
+deployments

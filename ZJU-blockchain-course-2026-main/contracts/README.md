@@ -1,6 +1,8 @@
 # MiniDEX 合约工程
 
-使用 Hardhat 3、ethers 6 和 TypeScript。`contracts/MiniDEX.sol` 目前仅是 Demo，DEX 功能尚待实现。
+使用 Hardhat 3、ethers 6 和 TypeScript。包含 TestToken、EthFaucet、MiniDEX（AMM + LP NFT）和 Arbitrage 合约，功能说明见根目录 README。
+
+部署后运行 `npm run simulate` 可以进行多用户随机交易与套利模拟。
 
 ## 安装与检查
 
